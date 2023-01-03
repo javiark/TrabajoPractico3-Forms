@@ -12,9 +12,17 @@
         <h1 class="header__title">REGISTRO DE USUARIO</h1>
     </header>
     <section class="register">
-        <form>
-            <label for="idInputName">Nombre</label><br>
-            <input type="text" name="name" id="idInputName" value="john" required>
+        
+        <form class="register__form">
+            <div class="register__casillero">
+                <label for="idInputName" class="register__text1">Nombre Completo</label><br>
+                <input type="text" name="name" id="idInputName" value="Jose Francisco Pérez" required class="register__box">
+            </div>
+
+            <div>
+                <label for="emailInput" class="register__text1" >Correo Electrónico</label> <br>
+                <input type="email" name="email" id="emailInput" placeholder="example@email.com" required class="register__boxmail"> <button>+</button>
+            </div>
 
         </form>
     </section>

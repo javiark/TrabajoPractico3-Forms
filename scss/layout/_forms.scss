@@ -1,0 +1,33 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__form {
+        width:25rem ;
+        height: 45rem;
+        background-color:#222222;
+        padding: 15px;
+    }
+    &__text1{
+        color: white;
+        padding-bottom: 150px;
+        font-size: 0.7rem;
+    }
+    &__box{
+        height: 1.7rem;
+        border-radius: 0.3rem;
+        padding-left: 1rem;
+        color:#634d95;
+        width: 23rem;
+    }
+    &__casillero{
+        padding-bottom: 1.2em;
+    }
+    &__boxmail{
+        height: 1.7rem;
+        border-radius: 0.3rem;
+        padding-left: 1rem;
+        color:#cad7ac;
+        width: 23rem;
+    }
+}
