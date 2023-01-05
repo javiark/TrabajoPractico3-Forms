@@ -180,7 +180,8 @@ input:focus, textarea:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding: 20px;
+  height: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -191,5 +192,8 @@ input:focus, textarea:focus {
   .header__title {
     font-size: 32px;
     margin-top: 1rem;
+  }
+  .footer {
+    padding: 10px;
   }
 }
