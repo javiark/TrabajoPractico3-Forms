@@ -21,22 +21,22 @@
         <form class="register__form">
             <div class="register__casillero">
                 <label for="idInputName" class="register__text1">Nombre Completo</label><br>
-                <input type="text" name="name" id="idInputName" value="Jose Francisco Pérez"  class="register__box" minlength="8" maxlength="40" size="50" autofocus >
+                <input type="text" name="name" id="idInputName" required value="Jose Francisco Pérez"  class="register__box" minlength="8" maxlength="40" size="50" autofocus >
             </div>
 
             <div class="register__casillero">
                 <label for="emailInput" class="register__text1" >Correo Electrónico</label> <br>
-                <input type="email" value="example@email.com" name="email" id="emailInput"  required class="register__boxmail" minlength="8" maxlength="45" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" > <button class="register__button" > <div class="register__3points">...</div></button>
+                <input type="email" value="example@email.com" name="email" id="emailInput"   class="register__boxmail" minlength="8" maxlength="45" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required > <button class="register__button" > <div class="register__3points">...</div></button>
             </div>
 
             <div class="register__casillero">
                 <label for="passwordInput" class="register__text1">Contraseña</label> <br>
-                <input type="password" name="password" id="passwordInput"  class="register__password" minlength="8" maxlength="45"> 
+                <input type="password" name="password" id="passwordInput" required class="register__password" minlength="8" maxlength="45"> 
             </div>
 
             <div class="register__casillero">
                 <label for="passwordInput" class="register__text1"> Repetir contraseña</label> <br>
-                <input type="password" name="password" id="passwordInput"  class="register__password" minlength="8" maxlength="45"> 
+                <input type="password" name="password" id="passwordInput" required class="register__password" minlength="8" maxlength="45"> 
             </div>
 
             <div class="register__casillero">
@@ -53,7 +53,7 @@
                 <label for="countryInput" class="register__text1">Seleccione su pais</label>
                 <select name="country" id="countryInput" class="register__country"   >
                     
-                    <option></option>
+                    <!-- <option></option> -->
                 
                         <option value="AF">Afghanistan</option>
                         <option value="AX">Åland Islands</option>
