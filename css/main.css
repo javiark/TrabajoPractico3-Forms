@@ -83,6 +83,9 @@ body {
 .register__casillero {
   padding-bottom: 1.2em;
 }
+.register__casillero1 {
+  padding-bottom: 3em;
+}
 .register__boxmail {
   position: absolute;
   font-weight: 100;
